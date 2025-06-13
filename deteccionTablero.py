@@ -11,7 +11,7 @@ ARCHIVO_PLANTILLA = "plantilla_tablero.json"
 TAMANIO_TABLERO = 800  # tamaño en píxeles de la imagen rectificada
 TAMANIO_TABLERO_CM = 50  # tamaño en centímetros del tablero
 
-#piezas = [0: "nada" , 1:"peon", ]
+#piezas = ['NADA': 0, 'PEON' : 1 , 'CABALLO': 2, 'TORRE' : 3, 'ALFIL' : 4, 'REY' : 5, 'REINA' : 6]
 
 def detectar_esquinas_tablero(img):
     """
